@@ -6,6 +6,7 @@
 I am sorry :crying_cat_face:.
 
 ```r
+devtools::install_github("richfitz/remoji")
 library(remoji)
 message(emoji("cat"))
 message(emoji(list_emoji(), TRUE))
