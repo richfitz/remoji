@@ -13,7 +13,7 @@ message(emoji(list_emoji(), TRUE))
 message(sub_emoji("This is silly :frowning:"))
 emoji_table(find_emoji("frown"))
 emoji_table(find_emoji("frown", approximate=TRUE))
-```r
+```
 
 ```
 library(magrittr)
