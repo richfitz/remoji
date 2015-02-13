@@ -13,7 +13,12 @@ message(emoji(list_emoji(), TRUE))
 message(sub_emoji("This is silly :frowning:"))
 emoji_table(find_emoji("frown"))
 emoji_table(find_emoji("frown", approximate=TRUE))
+```r
+
+```
+library(magrittr)
 find_emoji("sun") %>% emoji_table()
+find_emoji("chart") %>% emoji_table()
 ```
 
 I am so sorry :joy_cat:
