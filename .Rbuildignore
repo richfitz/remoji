@@ -1,0 +1,7 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.travis\.yml$
+Makefile
+TODO.md
+database_build.R
+emoji.json
